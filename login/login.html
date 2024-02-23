@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="buttonsForm">
+      <div class="btnCor"></div>
+      <button id="btnEntrar">Entrar</button>
+      <button id="btnInscrever">Inscreva-se</button>
+    </div>
+
+    <form id="entrar">
+      <input type="text" placeholder="Email" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Senha" required />
+      <i class="fas fa-lock iSenha"></i>
+      <div class="divCheck">
+        <input type="checkbox" />
+        <span>Relembrar Senha</span>
+      </div>
+      <button type="submit">Entrar</button>
+      <button id="esqueci-senha">Esqueci a senha</button>
+    </form>
+
+    <form id="inscrever">
+      <input type="text" placeholder="E-mail" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Senha" required />
+      <i class="fas fa-lock iSenha"></i>
+      <input type="password" placeholder="Confirme a Senha" required />
+      <i class="fas fa-lock iSenha2"></i>
+      <div class="divCheck">
+        <input type="checkbox" required />
+        <span>Termos</span>
+      </div>
+      <button type="submit">Inscreva-se</button>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
